@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://clipea.vercel.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow API routes
+Disallow: /api/
+
+# Allow static assets
+Allow: /public/
+Allow: /_next/static/ 
